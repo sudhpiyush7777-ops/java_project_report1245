@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 class Item {
     String name;
     double price;
@@ -44,7 +45,7 @@ class Bill {
         System.out.println(receipt);
     }
 }
-public class main {
+public class tempCodeRunner {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of items: ");
